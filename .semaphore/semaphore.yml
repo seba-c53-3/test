@@ -12,3 +12,9 @@ blocks:
           commands:
             - checkout
             - id
+promotions:
+  - name: Promotion 1
+    pipeline_file: pipeline_2.yml
+    deployment_target: target2
+  - name: Promotion 2
+    pipeline_file: pipeline_3.yml
