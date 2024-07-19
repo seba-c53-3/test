@@ -11,7 +11,6 @@ blocks:
         - name: 'Job #1'
           commands:
             - checkout
-            - id
 promotions:
   - name: <s>promotion
     pipeline_file: pipeline_2.yml
