@@ -11,10 +11,3 @@ blocks:
         - name: 'Job #1'
           commands:
             - checkout
-            - id
-promotions:
-  - name: <s>promotion
-    pipeline_file: pipeline_2.yml
-    deployment_target: target2
-  - name: Promotion 2
-    pipeline_file: pipeline_3.yml
